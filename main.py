@@ -49,3 +49,10 @@ for auto in autok:
         legidosebb_auto = auto
 
 print(f"A legidősebb autó kora: {legidosebb_auto_kora}, adatai: {legidosebb_auto}")
+
+auto_6 = Auto("BMW" "320d", 2019, 6,5)
+print(auto_6)
+auto_6.utazik(200)
+print(auto_6)
+auto.tankol(10)
+print(auto_6)
